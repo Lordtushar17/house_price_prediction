@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌌 Housing Price Prediction</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <!-- Galaxy, Stars, and Shooting Stars Background -->
+    <div class="galaxy"></div>
+    <div class="stars"></div>
+    <div class="shooting-stars"></div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <h1>🏠 Housing Price Prediction 🌠</h1>
+
+        <div class="input-group">
+            <label for="size">🚀 House Size (in sq ft):</label>
+            <input type="number" id="size" placeholder="Enter house size..." min="0">
+        </div>
+
+        <button onclick="predictPrice()">🌌 Predict</button>
+        <p id="result"></p>
+        
+        <button id="convert-button" onclick="convertCurrency()">💰 Convert to Rupees</button>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
